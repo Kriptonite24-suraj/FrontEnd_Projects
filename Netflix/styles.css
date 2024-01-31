@@ -1,0 +1,16 @@
+*{
+     padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url("Assets/Images/bg.jpg");
+    height: 80vh;
+   
+}
+
+.main1{
+    height:80vh;
+    background-color: black;
+    opacity: 0.44;
+}

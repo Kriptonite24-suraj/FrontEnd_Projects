@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="display-container">
+            <input readonly placeholder="Password" class="display">
+            <button class="copyBt">
+                <span id="copied_text"></span>
+                <i class="fa-solid fa-copy"></i>
+            </button>
+        </div>
+        <div class="input_container">
+            <div class="length">
+                <p>Password Length</p>
+                <p id="variable_len">0</p>
+            </div>
+            <input type="range" min="1" max="15" step="1" class="slider" id="myRange">
+            <!-- checkboxes -->
+
+            <div class="box1">
+                <input type="checkbox" id="u">
+                <label for="uppercase">Include Uppercase letters</label>
+            </div>
+            <div class="box2">
+                <input type="checkbox" id="l">
+                <label for="lowercase">Include Lowercase letters</label>
+            </div>
+            <div class="box3">
+                <input type="checkbox" id="n">
+                <label for="numbers">Include Numbers</label>
+            </div>
+            <div class="box4">
+                <input type="checkbox" id="s">
+                <label for="symbols">Include Symbols</label>
+            </div>
+            <!-- strength-section -->
+            <div class="strength">
+                <p>Strength</p>
+                <div class="indicator"></div>
+            </div>
+            <!-- generate password button -->
+            <button class="gpButton">Generate Password</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
