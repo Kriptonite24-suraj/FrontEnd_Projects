@@ -1,0 +1,148 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 70px;
+    margin-bottom: 0;
+
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    font-size: 0.7rem;
+    padding-left: 45px;
+    margin-bottom: 0;
+
+}
+
+h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #B9E937;
+    font-size: 0.65rem;
+    padding-left: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+
+}
+
+.main {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 0 10px 5px 10px;
+}
+
+.image {
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.button_div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+}
+
+button {
+    margin: 6px;
+    color: white;
+    border-radius: 5px;
+    background-color: #434242;
+    padding: 10px 0 10px 0;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 220px;
+}
+
+button:hover {
+    background-color: #B9E937;
+    color: #1F2544;
+}
+
+.attribution {
+    display: flex;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.65rem;
+
+}
+
+a {
+    font-family: 'Source Sans 3', sans-serif;
+    color: wheat;
+    font-size: 0.7rem;
+    text-decoration: none;
+
+}
+
+#challange {
+    padding-left: 20px;
+}
+
+#coded {
+    padding-left: 1030px;
+}
+
+a:hover {
+    color: #B9E937;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .attribution {
+        color: white;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 0.65rem;
+
+    }
+
+    a {
+        font-family: 'Source Sans 3', sans-serif;
+        color: wheat;
+        font-size: 0.7rem;
+        text-decoration: none;
+
+    }
+
+    #challange {
+        padding-left: 0px;
+    }
+
+    #coded {
+        padding-left: 100px;
+    }
+
+    a:hover {
+        color: #B9E937;
+    }
+}
