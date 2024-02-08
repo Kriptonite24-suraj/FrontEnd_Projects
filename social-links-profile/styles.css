@@ -50,11 +50,7 @@ h2 {
     height: 70px;
 }
 
-.upper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .img_div {
     display: flex;
@@ -116,33 +112,21 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
+@media (max-width: 375px) {
+    
+    .parent{
+        padding-bottom: 5px;
+    }
     .attribution {
-        color: white;
-        font-family: 'Source Sans 3', sans-serif;
-        font-size: 0.65rem;
-
+      font-size: 0.2rem;
+    
     }
-
-    a {
-        font-family: 'Source Sans 3', sans-serif;
-        color: wheat;
-        font-size: 0.7rem;
-        text-decoration: none;
-
-    }
-
     #challange {
-        padding-left: 0px;
+        padding-left:0;
     }
-
+    
     #coded {
-        padding-left: 100px;
+        padding-left:0;
     }
-
-    a:hover {
-        color: #B9E937;
-    }
-}
+   
+  }
