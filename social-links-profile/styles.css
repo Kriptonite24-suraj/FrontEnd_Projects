@@ -112,7 +112,7 @@ a:hover {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     
     .parent{
         padding-bottom: 5px;
